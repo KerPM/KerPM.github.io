@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+
+:root{
+    --dark-color: #161623;
+    --light-color: #e9e9dc;
+}
+
+* {
+    font-family: 'Poppins',sans-serif;
+    color:white;
+    margin:0;
+    padding:0;
+    list-style: none;
+    text-decoration: none;
+}
+
+body{
+    background: var(--dark-color);
+    min-height: 100vh;
+    max-width: 518px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+#Content{
+    margin: 0 1em;
+    /* max-width: 500px; */
+    /* display: flex;
+    flex-direction: column;
+    align-items: center; */
+}
+
+span{
+    /* color: #ff63c3; */
+    color: #8063ff;
+}
+
+
+/*** NAV ***/
+nav{
+    background-color: black;
+    opacity: 0.4;
+    padding: 1em;
+    margin: 0;
+    width: 100%;
+}
+
+
+
+/*** HEADER ***/
+header{
+    margin-top: 2em;
+    display: flex;
+    flex-direction: column;
+}
+header .head_title{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+header .pp{
+    border-radius: 100%;
+    border:solid 1px white;
+    width: 75px;
+    height: 75px;
+}
+header img{
+    filter: invert(100%);
+    margin: 12.5px;
+    /* border-radius: 100%;
+    border: solid 1px white; */
+}
+header .title{
+    letter-spacing: 2px;
+    text-align: center;
+    margin: 1em;
+}
+header .comment{
+    background-color: rgba(255, 255, 255, 0.08);
+    margin: 2em 0;
+    padding: 0.75em;
+    border-radius: 0.5em;
+    backdrop-filter: blur(10px);
+    text-align: center;
+}
+
+
+
+/*** MAIN ***/
+main .content{
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+}
+main .content p{
+    margin: 0.75em 0.25em;
+}
+
+/*** FORMATION ***/
+main h3{
+    margin-bottom: 1em;
+}
+
+main .content .formation_content{
+    /* background-color: red; */
+    display: flex;
+    margin: 0.25em;
+    gap: 1em;
+}
+
+
+/*** COMPETENCES ***/
+main .content .skills ul{
+    display: flex;
+    flex-wrap: wrap;
+    /* gap: 0.5em; */
+}
+
+main .content .skills li{
+    background-color: rgba(255, 255, 255, 0.08);
+    border-radius: 0.5em;
+    backdrop-filter: blur(10px);
+    padding: 1em;
+    margin: 0.5em;
+    
+}
+
+/*** Centres d'interets ***/
+main .content .interest p{
+    letter-spacing: 1px;
+    text-align: center;
+}
+
+
+/*** LINKS ***/
+.links{
+    display: flex;
+    margin-top: 2em;
+    gap:1.5em;
+}
+
+/*** FOOTER ***/
+footer{
+    /* background-color: black; */
+    position: static;
+    margin-top: 2em;
+    padding: 0.5em;
+    opacity: 0.4;
+    font-size: 0.875rem;
+    text-align: center;   
+    width: 100%;
+}
